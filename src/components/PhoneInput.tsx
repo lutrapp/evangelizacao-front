@@ -24,7 +24,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({ name, label, value, onChange, r
         value={value}
         onAccept={handleAccept} // Função chamada quando o valor é aceito
         name={name}
-        placeholder="(11) 98765-4321"
+        placeholder="(XX) 9XXXX-XXXX"
         className="border p-2 rounded-md w-full"
         required={required}
       />
