@@ -9,6 +9,8 @@ export default function AddressForm() {
       <Input name="number" label="Número" required />
       <Input name="neighborhood" label="Bairro" required />
       <Input name="complement" label="Complemento" />
+      <Input name="city" label="Cidade" />
+      <Input name="state" label="Estado" />
     </fieldset>
   );
 }

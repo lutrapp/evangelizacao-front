@@ -11,11 +11,24 @@ export interface Assistance {
     number: string;
     neighborhood: string;
     complement?: string;
+    state: string;
+    country: string
   };
   children: {
     id: number;
     name: string;
-    vaccinationCard: boolean;
+    dob: string; //date of birth
+    allergies: string;
+    physicalDisability: string;
+    disease: string; //includes tdah, autism
+    learningDifficulty: string;
+    medication: string;
+    homeBehavior: string;
+    schoolBehavior: string;
+    literate: boolean;
+    needsSchoolSupport: boolean;
+    vaccinationDeclaration: boolean;
+    basicSanitation: boolean;
     additionalInfo: string;
   }[];
 }
