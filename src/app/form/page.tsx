@@ -21,8 +21,8 @@ export default function AssistanceForm() {
       street: "",
       number: "",
       neighborhood: "",
-      city: "",
-      state: "",
+      city: "São Paulo",
+      state: "SP",
       complement: "",
     },
   });
@@ -75,8 +75,8 @@ export default function AssistanceForm() {
         street: "",
         number: "",
         neighborhood: "",
-        city: "",
-        state: "",
+        city: "São Paulo",
+        state: "SP",
         complement: "",
       },
     });

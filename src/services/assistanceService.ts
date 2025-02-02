@@ -12,7 +12,7 @@ export interface Assistance {
     neighborhood: string;
     complement?: string;
     state: string;
-    country: string
+    city: string
   };
   children: {
     id: number;

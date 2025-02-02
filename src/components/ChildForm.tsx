@@ -133,10 +133,14 @@ export default function ChildForm({ child, index, handleChangeChild, removeChild
     />
     </div>
 
-    <div className="flex justify-between items-center mt-6">
-        <Button icon={<FaTrash />}  
-        text={`\Excluir Filho(a) ${index + 1} `} onClick={() => removeChild(index)} color="red" />
-      </div>
+    <div className="flex justify-end mt-6">
+    <Button 
+      icon={<FaTrash />} 
+      text={`Excluir Filho(a) ${index + 1}`} 
+      onClick={() => removeChild(index)} 
+      color="red" 
+    />
+  </div>
 
       {/* <div className="flex justify-between items-center mt-6">
         <Button icon={<FaTrash />}  
